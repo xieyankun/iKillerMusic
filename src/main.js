@@ -5,6 +5,7 @@ import router from './router'
 import fastclick from 'fastclick'
 
 import 'common/stylus/index.styl'
+
 // 移动端300毫秒延时
 fastclick.attach(document.body)
 

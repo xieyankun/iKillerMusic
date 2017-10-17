@@ -33,6 +33,7 @@
       .tab-link
         padding-bottom: 5px
         color: $color-text-l
+      // 激活路由时添加选中class
       &.router-link-active
         .tab-link
           color: $color-theme
