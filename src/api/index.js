@@ -1,7 +1,7 @@
 
 export let loadUserData = () => {
   return new Promise((resolve, reject) => {
-    let user = null
+    // sessionStorage 获取用户信息
     let userInfo = {
       id: '888888',
       name: 'Killer',
@@ -10,7 +10,7 @@ export let loadUserData = () => {
     if (userInfo) {
       resolve(userInfo)
     } else {
-      resolve(user)
+      // todo 请求接口获取数据
     }
   })
 }
